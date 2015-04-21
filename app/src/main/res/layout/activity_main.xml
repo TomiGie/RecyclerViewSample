@@ -24,8 +24,6 @@
             android:layout_height="wrap_content"
             android:text="Linear"
             android:id="@+id/buttonLinear"
-            android:layout_alignParentBottom="true"
-            android:layout_centerHorizontal="true"
             android:layout_weight="1" />
 
         <Button
@@ -33,8 +31,6 @@
             android:layout_height="wrap_content"
             android:text="Grid"
             android:id="@+id/buttonGrid"
-            android:layout_alignParentBottom="true"
-            android:layout_centerHorizontal="true"
             android:layout_weight="1" />
 
         <Button
@@ -42,8 +38,6 @@
             android:layout_height="wrap_content"
             android:text="Staggered"
             android:id="@+id/buttonStaggered"
-            android:layout_alignParentBottom="true"
-            android:layout_centerHorizontal="true"
             android:layout_weight="1" />
     </LinearLayout>
 

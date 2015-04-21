@@ -17,8 +17,7 @@
         android:layout_marginTop="10dp"
         android:foreground="?android:attr/selectableItemBackground"
         android:id="@+id/cardView"
-        android:layout_marginBottom="10dp"
-        android:elevation="10dp">
+        android:layout_marginBottom="10dp">
 
         <!-- カードに載せる情報 -->
 
@@ -43,7 +42,7 @@
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="CardView"
                 android:id="@+id/cardArticleTitle"
-                android:textSize="13dp"
+                android:textSize="13sp"
                 android:gravity="center_vertical"
                 android:textColor="#ffffffff"
                 android:background="#96000000"
