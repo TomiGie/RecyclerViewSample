@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/list_item"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:layout_gravity="center_horizontal"
+    android:layout_margin="10dp">
+
+    <!-- 背景画像 -->
+    <ImageView
+        android:id="@+id/list_item_Image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/ic_launcher" />
+
+    <!-- タイトル -->
+    <TextView
+        android:id="@+id/list_item_Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:text="item title"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+</FrameLayout>
